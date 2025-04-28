@@ -4,27 +4,27 @@ This project is an automated testing system designed for pedometer electronic bo
 The project uses a Raspberry Pi, servo motors, Nordic PPK2 (Power Profiler Kit 2), and a display screen for user interaction and data visualization. A custom Python GUI is developed to control the testing workflow.
 
 ## Features
-Current Measurement:
+### Current Measurement:
 
 Using Nordic PPK2 to measure precise current consumption during board operation.
 
-MQTT ID Testing:
+### MQTT ID Testing:
 
 Automatically verifies and logs MQTT IDs of the boards.
 
-Tilt Sensor Testing:
+### Tilt Sensor Testing:
 
 Tests the functionality of the onboard tilt sensor through controlled physical movements (using servo motors).
 
-Automated Database Logging:
+### Automated Database Logging:
 
 All measured values and test results are saved automatically into a database system.
 
-Python GUI:
+### Python GUI:
 
 A user-friendly graphical interface to start tests, monitor progress, and display results live.
 
-Raspberry Pi Based:
+### Raspberry Pi Based:
 
 Manages communication between all hardware components and runs the main control software.
 
